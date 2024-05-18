@@ -13,7 +13,7 @@ int main(void)
     cin>> score;
 
     hello.push_back(score);
-
+    //Test
     
     cout<<hello[0]<<endl; // Does not do bound checking
     cout<<hello[1]<<endl;
