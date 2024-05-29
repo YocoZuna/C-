@@ -2,7 +2,7 @@
 #include <iostream>
 
 
-std::string s1;
+std::string s1; //Empty
 std::string s2 {"DawX"}; /* DawX */
 std::string s3 {s2}; /* DawX */
 std::string s4 {"Dawid",3}; /* Daw */
