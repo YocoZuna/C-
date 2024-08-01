@@ -35,4 +35,6 @@ int main(void)
     std::cout<<concat.erase(5,8)<<std::endl; // Delates chars form given postion to length
     concat.clear(); // clears whole var
     std::cout<<concat<<std::endl;
+    std::cout<<std::boolalpha;
+    std::cout<<(concat == concat);
 }
